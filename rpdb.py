@@ -10,6 +10,10 @@ def read_table(table):
 	Ssql = f'SELECT * FROM {table}'
 	return pd.read_sql(Ssql,engine)
 
+def read_table_sql(table, Ssql):
+	cs  = 'mysql+pymysql://root:root@35.246.218.28/run_moves'
+	engine = create_engine(cs)
+	return pd.read_sql(Ssql,engine)	
 	
 def export_table(dataframe, table, METHOD='replace'):
 	cs  = 'mysql+pymysql://root:root@35.246.218.28/run_moves'

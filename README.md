@@ -1,4 +1,4 @@
-![alt text](Movescount_data/images/main.png)
+![alt text](http://www.sunwaythegoodrun.com/wp-content/uploads/2017/07/Runner_Orange.png)
 
 # RUN PERFORMANCE PROJECT - Pau Sampietro 
 ### Final Project at Ironhack's Data Analytics Bootcamp
